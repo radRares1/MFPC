@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>MFPC App</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+
+<div class="container" style="min-height: 500px">
+
+    <div class="gallery">
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="title-container">
+            <p id="title"></p>
+            <p id="genre"></p>
+        </div>
+
+        <div class="row"></div>
+
+        <div class="random"></div>
+        <button class="randomButton" type="button" onclick="random()">Random?</button>
+    </div>
+
+
+</div>
+
+
+<script type="text/javascript"
+        src="webjars/jquery/2.2.4/jquery.min.js"></script>
+
+<script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>
